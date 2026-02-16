@@ -142,7 +142,7 @@ h1 {
   background: white;
   padding: 2rem;
   border-radius: 1rem;
-  width: 320px;
+  width: 360px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
   text-align: center;
 }
@@ -364,16 +364,28 @@ h1 {
 
 .agenda-container li button {
   border: none;
-  background: transparent;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+  backdrop-filter: blur(10px);
   color: #ff7675;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
   cursor: pointer;
-  transition: transform 0.2s, color 0.2s;
+  transition: all 0.3s ease;
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .agenda-container li button:hover {
-  color: #e056fd;
-  transform: rotate(90deg);
+  color: #fff;
+  background: linear-gradient(135deg, #ff7675, #e056fd);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 118, 117, 0.3);
 }
 
 .agenda-container {
