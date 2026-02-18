@@ -233,6 +233,16 @@ h1 {
   cursor: pointer;
 }
 
+/* session css */
+
+.cycle-options {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 15px;
+  margin-bottom:15px;
+}
+
 
 
 /* Responsive */
