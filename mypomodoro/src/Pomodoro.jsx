@@ -178,6 +178,7 @@ function Pomodoro() {
             </div>
 
             <div className="cycle-options">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <label>Break every:</label>
               <select
                 value={cycleLength}
