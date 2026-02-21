@@ -142,7 +142,7 @@ h1 {
   background: white;
   padding: 2rem;
   border-radius: 1rem;
-  width: 360px;
+  width: 380px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
   text-align: center;
 }
@@ -234,15 +234,27 @@ h1 {
 }
 
 /* session css */
-
 .cycle-options {
   display: flex;
   align-items: center;
   gap: 12px;
   margin-top: 15px;
-  margin-bottom:15px;
+  margin-bottom: 15px;
+  flex-wrap: nowrap;
 }
 
+.cycle-options label {
+  white-space: nowrap;
+}
+
+.breaklen {
+  width: 140px;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  appearance: none;
+}
 
 
 /* Responsive */
