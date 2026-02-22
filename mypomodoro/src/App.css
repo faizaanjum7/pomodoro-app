@@ -284,6 +284,15 @@ h1 {
   font-family: 'Segoe UI', sans-serif;
 }
 
+.category-section {
+  margin-top: 25px;
+}
+
+.category-section h2 {
+  margin-bottom: 10px;
+  color: #555;
+}
+
 .agenda-container h1 {
   font-size: 2.4rem;
   margin-bottom: 25px;
