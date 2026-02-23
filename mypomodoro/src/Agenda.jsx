@@ -109,15 +109,18 @@ function Agenda() {
           onKeyDown={(e) => e.key === "Enter" && addTask()}
         />
 
-        <select
-          value={category}
-          onChange={(e) => setCategory(e.target.value)}
-        >
-          <option value="General">General</option>
-          <option value="Work">Work</option>
-          <option value="Personal">Personal</option>
-          <option value="Study">Study</option>
-        </select>
+        <div className="category-options">
+              <select
+                className="category"
+                value={category}
+                onChange={(e) => setCategory(e.target.value)}
+              >
+                <option value="General">General</option>
+                <option value="Work">Work</option>
+                <option value="Personal">Personal</option>
+                <option value="Study">Study</option>
+              </select>
+            </div>
 
         <button onClick={addTask}>Add</button>
       </div>
