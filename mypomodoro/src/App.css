@@ -316,6 +316,21 @@ h1 {
 }
 
 
+/* Make category sections align nicely */
+.category-section {
+  background: #ffffff0d;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* ⭐ IMPORTANT: wrap category sections */
+.agenda-container > .category-section {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+} 
+
 .agenda-container h1 {
   font-size: 2.4rem;
   margin-bottom: 25px;
